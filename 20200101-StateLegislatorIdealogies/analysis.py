@@ -4,3 +4,8 @@ data = pd.io.stata.read_stata('data/shor+mccarty+1993-2016+individual+legislator
 
 print(data.columns)
 print(data.head())
+
+print(data.describe())
+
+print(data.st.value_counts())
+print(data.party.value_counts())
