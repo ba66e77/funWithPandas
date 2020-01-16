@@ -1,5 +1,10 @@
-data/*.dta
-data/*.sql
-.idea
+# source data files
+*.dta
+*.sql
+
+# virtual environment
 venv
+
+# OSX and PyCharm files
 .DS_Store
+.idea
